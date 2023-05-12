@@ -14,7 +14,7 @@ import DesktopHeader from './DesktopHeader';
 import MobileHeader from './MobileHeader';
 
 import messages from './Header.messages';
-
+console.log('HEADER 2 GW');
 ensureConfig([
   'LMS_BASE_URL',
   'LOGOUT_URL',
