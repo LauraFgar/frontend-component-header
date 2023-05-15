@@ -100,6 +100,7 @@ const Header = ({ intl }) => {
     loggedOutItems: getConfig().AUTHN_MINIMAL_HEADER ? [] : loggedOutItems,
   };
 
+  console.log("GW HEADER")
   return (
     <>
       <Responsive maxWidth={768}>
