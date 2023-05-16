@@ -95,8 +95,8 @@ const Header = ({ intl }) => {
     loggedIn: authenticatedUser !== null,
     username: authenticatedUser !== null ? authenticatedUser.username : null,
     avatar: authenticatedUser !== null ? authenticatedUser.avatar : null,
-    mainMenu: getConfig().AUTHN_MINIMAL_HEADER ? [] : mainMenu,
-    userMenu: getConfig().AUTHN_MINIMAL_HEADER ? [] : userMenu,
+    mainMenu: getConfig().AUTHN_MINIMAL_HEADER ? [] : [],
+    userMenu: getConfig().AUTHN_MINIMAL_HEADER ? [] : [],
     loggedOutItems: getConfig().AUTHN_MINIMAL_HEADER ? [] : loggedOutItems,
   };
 
